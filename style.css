@@ -1,0 +1,271 @@
+@font-face
+{
+    font-family: Authentic_Script_Rough;
+    src: url(Authentic_Script_Rough.ttf);
+}
+@font-face
+{
+    font-family: OpenSans;
+    src: url(OpenSans-Bold.ttf);
+}
+h6
+{
+    font-family: OpenSans;
+}
+*
+{
+    font-family: Authentic_Script_Rough;
+}
+.navbar
+{
+    background-color: #804f0f !important;
+    opacity: 78% !important;
+    font-size: 20px;
+}
+.nav-link
+{
+    color: white !important;
+}
+.text
+{
+    color: white !important;
+}
+.carousel-item img
+{
+    height: 450px;
+    width: 600px;
+}
+.carousel
+{
+    z-index: -1;
+}
+.dropdown-menu
+{
+    background-color: #b36b0e;
+}
+.dropdown-item
+{
+    color: white;
+    font-size: 20px;
+}
+.dropdown-item:hover
+{
+    color: #804f0f;
+}
+h1
+{
+    text-align: center;
+    color: #b36b0e;
+    margin-top: 40px;   
+}
+.about
+{
+    text-align: center;
+    color: #b36b0e;
+    margin-top: 40px;   
+}
+.centered 
+{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: #b36b0e;
+}
+.chocolates:hover
+{
+    opacity: 80%;
+}
+.chocolates
+{
+    height: 400px;
+    margin-top: 30px;
+    width: 350px;
+    border: 1px solid #804f0f;
+    box-shadow: 3px 2px 5px #b36b0e;
+}
+.card
+{
+    margin-top: 20px;
+    color: #b36b0e;
+    border: 1px solid #804f0f;
+    box-shadow: 3px 2px 5px #b36b0e;
+}
+.card-title
+{
+    font-size: 20px;
+}
+.btn
+{
+    background-color: #2D006B;
+    border: none;
+    font-size: 16px;
+}
+.btn1
+{
+    background-color: #b36b0e;
+    border: none;
+    font-size: 16px;
+}
+.btn2
+{
+    background-color: #381216;
+    border: none;
+    font-size: 16px;
+}
+.btn3
+{
+    background-color: #684FA3;
+    border: none;
+    font-size: 16px;
+}
+.btn4
+{
+    background-color: #EC2227;
+    border: none;
+    font-size: 16px;
+}
+p
+{
+    color: #b36b0e;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.smile
+{
+    height: 100px;
+}
+.footer
+{
+    margin-top: 70px;
+    background-color: #804f0f;
+    height: 80px;
+    text-align: center;
+    font-size: 32px;
+}
+.fa-instagram
+{
+    margin-top: 20px;
+    color: #3f729b;
+    background-color: white;
+    border-radius: 30px;
+    width: 40px;
+    padding-top: 4px;
+    height: 40px;
+    text-align: center;
+}
+.fa-facebook
+{
+    background-color: white;
+    border-radius: 30px;
+    width: 40px;
+    padding-top: 6px;
+    height: 40px;
+    text-align: center;
+    color: blue;
+}
+.fa-whatsapp
+{
+    background-color: green;
+    border-radius: 30px;
+    width: 40px;
+    padding-top: 5px;
+    height: 40px;
+    text-align: center;
+    color: white;
+}
+.div-1
+{
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+}
+.text
+{
+    color: white;
+}
+.text1
+{
+    color: #b36b0e;
+}
+.submit,.reset
+{
+    background-color: #b36b0e;
+    color: white;
+    border: none;
+}
+
+@media only screen and (max-width: 565px)
+{
+    .submit,.reset
+    {
+        margin-top: 10px;
+    }
+    legend
+    {
+        margin-bottom: 20px;
+        text-decoration: underline;
+    }
+    .div-1
+    {
+        padding-top: 100px;
+    }
+    .col
+    {
+        margin-left: 70px;
+    }
+    h1
+    {
+        margin-right: 50px !important;
+    }
+    .about
+    {
+        text-align: center !important;
+        margin-right: 0px;
+        margin-top: 120px;
+        margin-bottom: 50px;    
+   }
+   .home
+   {
+       margin-right: 0px;
+       text-align: center;
+   }
+}
+@media only screen and (max-width: 768px)
+{
+ h1
+ {
+     margin-right: 120px;
+ }
+ .about
+ {
+     text-align: center !important;
+     margin-right: 0px;
+     margin-top: 120px;
+     margin-bottom: 50px;    
+}
+.home
+{
+    margin-right: 0px;
+    text-align: center;
+}
+p
+{
+    margin-top: 30px;
+}
+.footer
+{
+    margin-top: 50px;
+    height: 120px;
+}
+}
+@media only screen and (max-width: 1024px)
+{
+    .home1
+    {
+        margin-left: 0px;
+    }
+}
